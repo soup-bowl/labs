@@ -1,0 +1,223 @@
+body {
+	background-color: #380000;
+	font-family: monospace;
+	overflow: hidden;
+	font-smooth: never;
+	-webkit-font-smoothing: none;
+	image-rendering: pixelated!important;
+	image-rendering: crisp-edges!important;
+	font-size: 1.25em;
+}
+
+#stars div {
+	background-color:#a00000;
+	width:4px;
+	height:4px;
+}
+
+.stage-ship {
+	/*background-color: #c80000;*/
+	background-image: url('assets/sis-h.png');
+	background-size: cover;
+	width: 200px;
+	height:100px;
+	position: fixed;
+	left: 40%;
+	top: 45%;
+	z-index: 8;
+}
+
+/* Controls */
+.bridge {
+	z-index: 10;
+	display: flex;
+	min-width: 480px;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+/* Left-hand side */
+.display {
+	flex: 50%;
+	border-left: 5px solid #505050;
+	border-right: 5px solid #505050;
+	border-bottom: 2px solid #505050;
+	color: #d800d8;
+}
+
+.location {
+	background-color: #505050;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+	border: solid 2px;
+	border-top-color: #505050;
+	border-left-color: #404040;
+	border-right-color: #7E7E7E;
+	border-bottom-color: #808080;
+}
+
+.name {
+	flex: 50%;
+	height: 14px;
+}
+
+.name #location {
+	background-color: #0000A0;
+	margin: -2px;
+
+	border: solid 2px;
+	border-top-color: #000074;
+	border-left-color: #000074;
+	border-right-color: #0000E8;
+	border-bottom-color: #0000E8;
+}
+
+.coordinates {
+	flex: 50%;
+	text-align: right;
+}
+
+.coordinates #co {
+	background-color: #0000A0;
+	display: inline-block;
+	margin: -2px;
+
+	border: solid 2px;
+	border-top-color: #000074;
+	border-left-color: #000074;
+	border-right-color: #0000E8;
+	border-bottom-color: #0000E8;
+}
+
+/* Right-hand side */
+.console {
+	flex: 0 0 150px;
+	border-left: 2px black solid;
+	background-color: #505050;
+
+	border: solid 2px;
+	border-top-color: #505050;
+	border-left-color: #404040;
+	border-right-color: #7E7E7E;
+	border-bottom-color: #808080;
+}
+
+.console-top {
+	z-index: 10;
+}
+
+.command {
+	background-color: #0000A0;
+	line-height: 0;
+
+	border: solid 2px;
+	border-top-color: #000074;
+	border-left-color: #000074;
+	border-right-color: #0000E8;
+	border-bottom-color: #0000E8;
+}
+
+.command .insignia {
+	text-transform: uppercase;
+	color: #1020F0;
+}
+
+.command .captain {
+	color: #B058F8;
+}
+
+.ship {
+	border: solid 2px;
+	background-color: #000508;
+
+	border-top-color: #7E7E7E;
+	border-left-color: #7E7E7E;
+	border-right-color: #3F3F3F;
+	border-bottom-color: #3F3F3F;
+}
+
+.ship .shipname {
+	background-color: black;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.ship .sis img {
+	width: 50px;
+}
+
+.ship .fuel {
+	text-transform: uppercase;
+	line-height: 0;
+	color: #980000;
+}
+
+.ship .crew {
+	text-transform: uppercase;
+	line-height: 0;
+	color: #007000;
+}
+
+.stardate {
+	background-color: #004000;
+	color: #008000;
+
+	border: solid 2px;
+	border-top-color: #7E7E7E;
+	border-left-color: #7E7E7E;
+	border-right-color: #3F3F3F;
+	border-bottom-color: #3F3F3F;
+}
+
+.console-bottom {
+	border-top: solid 2px #404040;
+}
+
+.radar {
+	width: 125px;
+	height: 125px;
+	background-color: #007000;
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+
+	border: solid 2px;
+	border-top-color: #707070;
+	border-left-color: #707070;
+	border-right-color: #303030;
+	border-bottom-color: #303030;
+}
+/* !OF Controls */
+
+/* Gradients */
+.shipgradient {
+	background: #FF3800;
+	background: -webkit-linear-gradient(to bottom, #FF3800 0%, #FFC500 100%);
+	background: -moz-linear-gradient(to bottom, #FF3800 0%, #FFC500 100%);
+	background: linear-gradient(to bottom, #FF3800 0%, #FFC500 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.fuelgradient {
+	background: #630000;
+	background: -webkit-linear-gradient(to bottom, #630000 0%, #de0000 100%);
+	background: -moz-linear-gradient(to bottom, #630000 0%, #de0000 100%);
+	background: linear-gradient(to bottom, #630000 0%, #de0000 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.crewgradient {
+	background: #005000;
+	background: -webkit-linear-gradient(to bottom, #005000 0%, #00B400 100%);
+	background: -moz-linear-gradient(to bottom, #005000 0%, #00B400 100%);
+	background: linear-gradient(to bottom, #005000 0%, #00B400 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+/* !OF Gradients */
