@@ -1,0 +1,40 @@
+body {
+	background-color: #000;
+	color: #FFF;
+	overflow: hidden;
+	font-size: 5rem;
+	font-family: sans-serif;
+}
+
+#stars div {
+	background-color:#fff;
+	border-radius: 500px;
+	width:4px;
+	height:4px;
+	z-index: -1000;
+}
+
+.center-screen {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
+
+#imposter {
+	position: fixed;
+	top: 45%;
+	width: 6rem;
+	z-index: -500;
+}
+
+.deploy-btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
