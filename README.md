@@ -8,6 +8,7 @@ Lab                   | Type    | Description
 [![Miami][p1]][l1]      | Artwork | Rendering of Toni from Flash FM on a stereotypical 80's Miami background.
 [![9xpress][p2]][l2]    | Mockup  | Merged into the [ReviveToday Sparkling theme][rts]. View it on the [ReviveToday login][l2].
 [![Hyperspace][p3]][l3] | Mockup  | [Star Control 2 / Ur-quan Masters][uqm] GUI made up in HTML, CSS and JavaScript.
+[![Amongus][p4]][l4]    | Test    | Someone's the imposter...
 
 [l1]: https://labs.soupbowl.io/miami
 [p1]: https://user-images.githubusercontent.com/11209477/117578212-36e66400-b0e5-11eb-9e11-91e9a83a8e1a.png
@@ -15,6 +16,8 @@ Lab                   | Type    | Description
 [p2]: https://user-images.githubusercontent.com/11209477/117578213-377efa80-b0e5-11eb-8749-780380591b6f.png
 [l3]: https://labs.soupbowl.io/hyperspace
 [p3]: https://user-images.githubusercontent.com/11209477/117578214-38179100-b0e5-11eb-9557-4521cac2f383.png
+[l4]: https://labs.soupbowl.io/amongus
+[p4]: https://user-images.githubusercontent.com/11209477/118365642-8a4d2c00-b595-11eb-92b3-92b480003032.png
 
 [labs]: https://labs.soupbowl.io
 [uqm]: http://sc2.sourceforge.net/
