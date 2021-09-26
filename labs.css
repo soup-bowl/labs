@@ -97,7 +97,7 @@ a:hover {
 }
 
 /* Small screen applications */
-@media (max-width: 600px) {
+@media (max-width: 641px) {
 	#starbase table {
 		margin: 0;
 		width: 100%;
@@ -107,8 +107,8 @@ a:hover {
 		max-width: 100px;
 	}
 
-	/*#starbase table th:nth-child(2),
+	#starbase table th:nth-child(2),
 	#starbase table td:nth-child(2) {
 		display: none;
-	}*/
+	}
 }
