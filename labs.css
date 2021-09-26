@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	font-family: monospace;
+	text-align: center;
+	background-color: #101010;
+	color: #a1ff9b;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+a, a:visited {
+	color: #a1ff9b;
+}
+
+a:hover {
+	color: pink;
+}
+
+#starbase {
+	padding: 10px 10% 0 10%;
+}
+
+#starbase table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	text-align: left;
+	border-collapse: collapse;
+	background-color: #101010bd;
+	margin-bottom: 20px;
+	font-size: 1em;
+}
+
+#starbase table thead {
+	font-weight: bold;
+	text-align: center;
+}
+
+#starbase table th,
+#starbase table td {
+	border: 1px solid #a1ff9b;
+	padding: 5px;
+}
+
+#starbase table img {
+	max-width: 250px;
+}
+
+#starbase table th:first-child {
+	width: 100px;
+}
+
+@media (max-width: 600px) {
+	#starbase table img {
+		max-width: 150px;
+	}
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 5px;
+	background-color: #000;
+	border-top-left-radius: 5px;
+	margin: auto 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.state-page {
+	padding: 10px 10% 0 10%;
+}
+
+.camper {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 400px;
+	height: 280px;
+	z-index: -10;
+	background-image: url(bg.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/* Standard syntax */
+@keyframes throbberSpin {  
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+#loadingThrobber {
+	display: inline-block;
+	animation: throbberSpin 2s linear infinite;
+}
