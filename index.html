@@ -91,6 +91,17 @@
 			background-repeat: no-repeat;
 			background-position: right;
 		}
+
+		/* Standard syntax */
+		@keyframes throbberSpin {  
+			0% { -webkit-transform: rotate(0deg); }
+			100% { -webkit-transform: rotate(360deg); }
+		}
+
+		#loadingThrobber {
+			display: inline-block;
+			animation: throbberSpin 2s linear infinite;
+		}
 	</style>
 </head>
 <body>
@@ -103,24 +114,11 @@
 	</div>
 
 	<div id="loading" class="state-page">
-		<h1>Loading...</h1>
+		<h1><span id="loadingThrobber">&#9881;</span> Loading...</h1>
 	</div>
 
 	<div class="camper"></div>
 	
 	<script src="node_modules/marked/marked.min.js"></script>
-	<script>
-		var file = "https://raw.githubusercontent.com/soup-bowl/labs/main/README.md";
-		fetch(file)
-			.then(r => r.text())
-			.then(r => {
-				document.getElementById('starbase').classList.remove('hidden');
-				document.getElementById('loading').classList.add('hidden');
-				document.getElementById('starbase').innerHTML = marked(r);
-			})
-			.catch(e => {
-				document.getElementById('error').classList.remove('hidden');
-				document.getElementById('loading').classList.add('hidden');
-			});
-	</script>
+	<script src="labs.js"></script>
 </body>
