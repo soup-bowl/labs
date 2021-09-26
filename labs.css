@@ -54,12 +54,6 @@ a:hover {
 	width: 100px;
 }
 
-@media (max-width: 600px) {
-	#starbase table img {
-		max-width: 150px;
-	}
-}
-
 .footer {
 	position: fixed;
 	bottom: 0;
@@ -100,4 +94,21 @@ a:hover {
 #loadingThrobber {
 	display: inline-block;
 	animation: throbberSpin 2s linear infinite;
+}
+
+/* Small screen applications */
+@media (max-width: 600px) {
+	#starbase table {
+		margin: 0;
+		width: 100%;
+	}
+	
+	#starbase table img {
+		max-width: 100px;
+	}
+
+	/*#starbase table th:nth-child(2),
+	#starbase table td:nth-child(2) {
+		display: none;
+	}*/
 }
