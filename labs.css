@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+	margin: 0 0 100px 0;
 	padding: 0;
 	font-size: 1rem;
 	font-family: monospace;
@@ -31,7 +31,6 @@ a:hover {
 	text-align: left;
 	border-collapse: collapse;
 	background-color: #101010bd;
-	margin-bottom: 20px;
 	font-size: 1em;
 }
 
@@ -110,5 +109,10 @@ a:hover {
 	#starbase table th:nth-child(2),
 	#starbase table td:nth-child(2) {
 		display: none;
+	}
+
+	.footer {
+		width: 100%;
+		border-radius: inherit;
 	}
 }
