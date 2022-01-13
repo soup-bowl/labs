@@ -10,7 +10,7 @@
  *
  * @param {string} r - Textual content (will be parsed for Markdown).
  */
-function showContent(r) {		
+function showContent(r) {
 	resetStage();
 	document.getElementById('starbase').classList.remove('hidden');
 	document.getElementById('starbase').innerHTML = marked(r);
