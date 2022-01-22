@@ -1,4 +1,7 @@
-let callsign = 'Dave was An Imposter.';
+params   = new URLSearchParams(window.location.search);
+imposter = params.get('imposter');
+
+let callsign = ((imposter == null) ? 'Dave' : imposter) + ' was an imposter.';
 
 const sleep = (milliseconds) => {
 	return new Promise(resolve => setTimeout(resolve, milliseconds));
