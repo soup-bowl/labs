@@ -12,15 +12,15 @@ Lab                     | Type    | Description
 [![Whatsthis][p5]][l5]  | Site    | Runs a tech check on a specified website. Primarily a ReactJS test.
 
 [l1]: https://labs.soupbowl.io/miami
-[p1]: /_img/miami.png
+[p1]: https://raw.githubusercontent.com/soup-bowl/labs/main/_img/miami.png
 [l2]: https://revive.today/wp-admin
-[p2]: /_img/wpadmin.png
+[p2]: https://raw.githubusercontent.com/soup-bowl/labs/main/_img/wpadmin.png
 [l3]: https://labs.soupbowl.io/hyperspace
-[p3]: /_img/hyperspace.png
+[p3]: https://raw.githubusercontent.com/soup-bowl/labs/main/_img/hyperspace.png
 [l4]: https://labs.soupbowl.io/amongus
-[p4]: /_img/amongus.png
+[p4]: https://raw.githubusercontent.com/soup-bowl/labs/main/_img/amongus.png
 [l5]: https://whatsth.is
-[p5]: /_img/whatsthis.png
+[p5]: https://raw.githubusercontent.com/soup-bowl/labs/main/_img/whatsthis.png
 
 [labs]: https://labs.soupbowl.io
 [uqm]: http://sc2.sourceforge.net/
