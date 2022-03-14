@@ -3,21 +3,24 @@ Small CSS and/or JavaScript projects that don't warrant a bigger repository. Mir
 
 # Current Labs
 
-Lab                   | Type    | Description
+Lab                     | Type    | Description
 ------------------------|---------|------------
 [![Miami][p1]][l1]      | Artwork | Rendering of Toni from Flash FM on a stereotypical 80's Miami background.<br>(Background doesn't show correctly in Firefox).
 [![9xpress][p2]][l2]    | Mockup  | Merged into the [ReviveToday Sparkling theme][rts]. View it on the [ReviveToday login][l2].
 [![Hyperspace][p3]][l3] | Mockup  | [Star Control 2 / Ur-quan Masters][uqm] GUI made up in HTML, CSS and JavaScript.
 [![Amongus][p4]][l4]    | Test    | Someone's the imposter...
+[![Whatsthis][p5]][l5]  | Site    | Runs a tech check on a specified website. Primarily a ReactJS test.
 
 [l1]: https://labs.soupbowl.io/miami
-[p1]: https://user-images.githubusercontent.com/11209477/117578212-36e66400-b0e5-11eb-9e11-91e9a83a8e1a.png
+[p1]: /_img/miami.png
 [l2]: https://revive.today/wp-admin
-[p2]: https://user-images.githubusercontent.com/11209477/117578213-377efa80-b0e5-11eb-8749-780380591b6f.png
+[p2]: /_img/wpadmin.png
 [l3]: https://labs.soupbowl.io/hyperspace
-[p3]: https://user-images.githubusercontent.com/11209477/117578214-38179100-b0e5-11eb-9557-4521cac2f383.png
+[p3]: /_img/hyperspace.png
 [l4]: https://labs.soupbowl.io/amongus
-[p4]: https://user-images.githubusercontent.com/11209477/118365642-8a4d2c00-b595-11eb-92b3-92b480003032.png
+[p4]: /_img/amongus.png
+[l5]: https://whatsth.is
+[p5]: /_img/whatsthis.png
 
 [labs]: https://labs.soupbowl.io
 [uqm]: http://sc2.sourceforge.net/
