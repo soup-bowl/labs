@@ -5,11 +5,16 @@ Small CSS and/or JavaScript projects that don't warrant a bigger repository. Mir
 
 Lab                     | Type    | Description
 ------------------------|---------|------------
+[![Whatsthis][p5]][l5]  | Site    | Runs a tech check on a specified website. Primarily a ReactJS test.
 [![Miami][p1]][l1]      | Artwork | Rendering of Toni from Flash FM on a stereotypical 80's Miami background.<br>(Background doesn't show correctly in Firefox).
-[![9xpress][p2]][l2]    | Mockup  | Merged into the [ReviveToday Sparkling theme][rts]. Theme no longer in-use.
 [![Hyperspace][p3]][l3] | Mockup  | [Star Control 2 / Ur-quan Masters][uqm] GUI made up in HTML, CSS and JavaScript.
 [![Amongus][p4]][l4]    | Test    | Someone's the imposter...
-[![Whatsthis][p5]][l5]  | Site    | Runs a tech check on a specified website. Primarily a ReactJS test.
+
+# Expired Labs
+
+Lab                     | Type    | Description
+------------------------|---------|------------
+[![9xpress][p2]][l2]    | Mockup  | Merged into the [ReviveToday Sparkling theme][rts]. Theme no longer in-use.
 
 [l1]: https://labs.soupbowl.io/miami
 [p1]: https://raw.githubusercontent.com/soup-bowl/labs/main/_img/miami.png
