@@ -14,11 +14,10 @@ Lab                     | Type    | Description
 
 Lab                     | Type    | Description
 ------------------------|---------|------------
-[![9xpress][p2]][l2]    | Mockup  | Merged into the [ReviveToday Sparkling theme][rts]. Theme no longer in-use.
+![9xpress][p2]          | Mockup  | Merged into the [ReviveToday Sparkling theme][rts]. Theme no longer in-use.
 
 [l1]: https://labs.soupbowl.io/miami
 [p1]: https://raw.githubusercontent.com/soup-bowl/labs/main/_img/miami.png
-[l2]: https://revive.today/wp-admin
 [p2]: https://raw.githubusercontent.com/soup-bowl/labs/main/_img/wpadmin.png
 [l3]: https://labs.soupbowl.io/hyperspace
 [p3]: https://raw.githubusercontent.com/soup-bowl/labs/main/_img/hyperspace.png
