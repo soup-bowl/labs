@@ -1,6 +1,6 @@
 tasks:
   - init: |
-      chmod 777
       docker-compose pull
     command: |
+      chmod 775
       docker-compose up
