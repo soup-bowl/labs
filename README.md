@@ -5,7 +5,7 @@ Small CSS and/or JavaScript projects that don't warrant a bigger repository. Mir
 
 Lab                     | Type    | Description
 ------------------------|---------|------------
-[![Wapp][l6]][l6]       | Site    | Shows a web app based on a specified WordPress site URL.
+[![wapp][p6]][l6]       | Site    | Shows a web app based on a specified WordPress site URL.
 [![Whatsthis][p5]][l5]  | Site    | Runs a tech check on a specified website. Primarily a ReactJS test.
 [![Miami][p1]][l1]      | Artwork | Rendering of Toni from Flash FM on a stereotypical 80's Miami background.<br>(Background doesn't show correctly in Firefox).
 [![Hyperspace][p3]][l3] | Mockup  | [Star Control 2 / Ur-quan Masters][uqm] GUI made up in HTML, CSS and JavaScript.
