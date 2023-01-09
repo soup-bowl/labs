@@ -78,7 +78,7 @@ a:hover {
 	width: 400px;
 	height: 280px;
 	z-index: -10;
-	background-image: url(bg.png);
+	background-image: url(_img/background.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right;

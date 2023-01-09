@@ -6,66 +6,35 @@
  */
 
 /**
- * Render, parse and display markdown content into the main element.
+ * Displays a table with labs.json data.
  *
- * @param {string} r - Textual content (will be parsed for Markdown).
+ * @param {array} items - Collection from the labs.json.
  */
-function showContent(r) {
-	resetStage();
+function displayLabs(items) {
+	const surLaTable = document.createElement('table');
+	items.forEach(item => {
+		const link = document.createElement('a');
+		link.href = item.url;
+		const img = document.createElement('img');
+		img.src = item.logo;
+		img.alt = item.lab;
+		img.title = item.lab;
+		link.appendChild(img);
+
+		const margaritaville = surLaTable.insertRow();
+		margaritaville.insertCell().appendChild(link);
+		margaritaville.insertCell().appendChild(document.createTextNode(item.type));
+		margaritaville.insertCell().appendChild(document.createTextNode(item.description));
+	});
+
 	document.getElementById('starbase').classList.remove('hidden');
-	document.getElementById('starbase').innerHTML = marked(r);
-}
-
-/**
- * Retrieves and parses remote markdown content.
- *
- * @param {string} r - Textual content (will be parsed for Markdown).
- */
-function showRemoteContent(url) {
-	showLoading();
-	fetch(url)
-		.then(r => r.text())
-		.then(r => {
-			showContent(r);
-		})
-		.catch(e => {
-			showError();
-		});
-}
-
-/**
- * Shows a loading element on the screen.
- */
-function showLoading() {
-	resetStage();
-	document.getElementById('loading').classList.remove('hidden');
-}
-
-/**
- * Shows an error page on the screen.
- */
-function showError() {
-	resetStage();
-	document.getElementById('error').classList.remove('hidden');
-}
-
-/**
- * Resets all the relevant content areas to hidden.
- */
-function resetStage() {
-	document.getElementById('starbase').classList.add('hidden');
-	document.getElementById('error').classList.add('hidden');
 	document.getElementById('loading').classList.add('hidden');
-	document.getElementById('starbase').innerHTML = "";
+	document.getElementById('content').appendChild(surLaTable);
 }
 
 window.onload = function() {
-	console.log(
-		"Hello from soup-bowl! Glad to see you popped in with console.", "\n",
-		"The markdown generation function is accessible and will over-write the content if you want some fun.", "\n",
-		"showContent(text)      - Replaces the content with 'text', rendering markdown. CSS is fixed, so you might get some funky results.", "\n",
-		"showRemoteContent(url) - Same as above, but grabs from the specified URL.", "\n",
-	);
-
-	showRemoteContent("https://raw.githubusercontent.com/soup-bowl/labs/main/README.md");
+	fetch("/labs.json")
+		.then(response => response.json())
+		.then(response => displayLabs(response))
+		.catch(response => console.log(response))
 };

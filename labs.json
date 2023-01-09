@@ -1,0 +1,37 @@
+[
+	{
+		"lab": "Pressify",
+		"description": "Shows a web app based on a specified WordPress site URL.",
+		"type": "site",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/wapp.png",
+		"url": "https://soupbowl.dev/labs/pressify"
+	},
+	{
+		"lab": "What's This?",
+		"description": "Runs a tech check on a specified website. Primarily a ReactJS test.",
+		"type": "site",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/whatsthis.png",
+		"url": "https://whatsth.is"
+	},
+	{
+		"lab": "Miami",
+		"description": "Rendering of Toni from Flash FM on a stereotypical 80's Miami background (Background doesn't show correctly in Firefox).",
+		"type": "artwork",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/miami.png",
+		"url": "https://soupbowl.dev/labs/miami"
+	},
+	{
+		"lab": "Hyperspace",
+		"description": "Star Control 2 / Ur-quan Masters GUI made up in HTML, CSS and JavaScript.",
+		"type": "test",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/hyperspace.png",
+		"url": "https://soupbowl.dev/labs/hyperspace"
+	},
+	{
+		"lab": "Among us",
+		"description": "Someone's the imposter...",
+		"type": "test",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/amongus.png",
+		"url": "https://soupbowl.dev/labs/amongus"
+	}
+]
