@@ -33,7 +33,7 @@ function displayLabs(items) {
 }
 
 window.onload = function() {
-	fetch("/labs.json")
+	fetch("labs.json")
 		.then(response => response.json())
 		.then(response => displayLabs(response))
 		.catch(response => console.log(response))
