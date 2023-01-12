@@ -21,6 +21,13 @@
 		"url": "https://soupbowl.dev/labs/miami"
 	},
 	{
+		"lab": "Pantone",
+		"description": "Tiny JavaScript app showing the Pantone Color(s) of the Year",
+		"type": "artwork",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/pantone.png",
+		"url": "https://soupbowl.dev/labs/pantone"
+	},
+	{
 		"lab": "Hyperspace",
 		"description": "Star Control 2 / Ur-quan Masters GUI made up in HTML, CSS and JavaScript.",
 		"type": "test",
