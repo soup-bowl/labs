@@ -14,6 +14,11 @@
 	--shadow: #000;
 }
 
+::selection {
+	color: var(--secondary);
+	background: var(--primary);
+}
+
 body {
 	font-family: 'Roboto', 'Arial', sans-serif;
 	color: var(--primary);
