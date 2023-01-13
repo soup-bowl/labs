@@ -4,7 +4,7 @@
 		"description": "Shows a web app based on a specified WordPress site URL.",
 		"type": "site",
 		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/wapp.png",
-		"url": "/pressify"
+		"url": "https://soupbowl.dev/pressify"
 	},
 	{
 		"lab": "What's This?",
