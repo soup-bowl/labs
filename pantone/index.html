@@ -5,13 +5,31 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="pantone.css">
+	<link rel="icon" type="image/svg+xml" href="favicon.svg" />
 	<title>Pantone Color of the Year</title>
 </head>
 
 <body>
-	<h1><span>Pantone&reg;</span> Color of the Year</h1>
+	<h1><span>Pantone<sup>&reg;</sup></span> Color of the Year</h1>
+	<div class="toolbox">
+		<span title="Toggle between Light and Dark themes" onclick="changeTheme()">
+			<svg width="107.1mm" height="107.1mm" version="1.1" viewBox="0 0 110 110"
+				xmlns="http://www.w3.org/2000/svg">
+				<g transform="translate(-44.74 -27.17)">
+					<circle cx="98.28" cy="80.7" r="51.04" fill="none" stroke-width="7" />
+					<path d="m142.5 106.2a51.04 51.04 0 0 1-69.72 18.68 51.04 51.04 0 0 1-18.68-69.72" />
+				</g>
+			</svg>
+		</span>
+	</div>
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 	<div id="root"></div>
+	<div class="footer">
+		<p>
+			<strong><a href="https://soupbowl.dev">Soupbowl experiment</a></strong>, this site is not affiliated with
+			<strong><a href="https://www.pantone.com/">Pantone<sup>&reg;</sup></a></strong>
+		</p>
+	</div>
 	<script src="pantone.js"></script>
 </body>
 

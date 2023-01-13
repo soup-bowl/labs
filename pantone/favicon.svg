@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+	width="111.34336mm"
+	height="128.73492mm"
+	viewBox="0 0 111.34336 128.73492"
+	version="1.1"
+	xml:space="preserve"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:svg="http://www.w3.org/2000/svg">
+	<style>
+		.colordef-coty {
+			fill:#be3455;
+		}
+		.colordef-primary {
+			fill: #000;
+		}
+		.colordef-second {
+			fill: #fff;
+		}
+		@media (prefers-color-scheme: dark) {
+			.colordef-primary {
+				fill: #fff;
+			}
+			.colordef-second {
+				fill: #000;
+			}
+		}
+	</style>
+	<defs id="defs2" />
+		<g id="layer1" transform="translate(-54.496284,-45.424098)">
+			<rect
+				class="colordef-second"
+				width="108.49236"
+				height="125.88393"
+				x="55.921783"
+				y="46.849598"
+			/>
+			<rect
+				class="colordef-coty"
+				width="108.49236"
+				height="69.58004"
+				x="55.921783"
+				y="46.849598"
+			/>
+			<rect
+				style="fill:none;stroke:#c5c5c5;stroke-width:2.851;"
+				width="108.49236"
+				height="125.88393"
+				x="55.921783"
+				y="46.849598"
+			/>
+			<rect
+				style="fill-opacity:0.5"
+				class="colordef-second"
+				width="45.598377"
+				height="16.338377"
+				x="112.94552"
+				y="96.978798"
+			/>
+			<rect
+				class="colordef-primary"
+				width="54.674328"
+				height="8.8229733"
+				x="61.259026"
+				y="120.04553"
+			/>
+			<rect
+			class="colordef-primary"
+				width="33.292019"
+				height="6.4014683"
+				x="61.259026"
+				y="141.41534"
+			/>
+			<rect
+				class="colordef-primary"
+				width="33.292019"
+				height="6.4014683"
+				x="61.259026"
+				y="152.52769"
+			/>
+			<rect
+				style="fill-opacity:0.5"
+				class="colordef-primary"
+				width="33.292019"
+				height="4.1944237"
+				x="125.28817"
+				y="144.02945"
+			/>
+			<rect
+				style="fill-opacity:0.5"
+				class="colordef-primary"
+				width="33.292019"
+				height="4.1944237"
+				x="125.28817"
+				y="154.73474"
+			/>
+		</g>
+</svg>
