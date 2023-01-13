@@ -9,7 +9,16 @@ window.onload = () => {
 				let col = document.createElement("div");
 				col.classList.add("color");
 				col.style = `background-color: ${element.colors[0].hex}`;
+				coltext = document.createElement("h2");
+				coltext.innerText = element.year;
+				col.appendChild(coltext);
 
+				let cotyName = document.createElement("div");
+				cotyName.classList.add("color-name");
+				let CotyStr = document.createElement("p");
+				CotyStr.innerText = element.colors[0].name;
+				cotyName.appendChild(CotyStr);
+				
 				let details = document.createElement("div");
 				details.classList.add("details");
 
@@ -35,6 +44,7 @@ window.onload = () => {
 				details.appendChild(colB);
 
 				swatch.appendChild(col);
+				swatch.appendChild(cotyName);
 				swatch.appendChild(details);
 
 				document.getElementById("root").appendChild(swatch);
