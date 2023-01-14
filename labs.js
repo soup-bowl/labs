@@ -6,21 +6,25 @@
  */
 
 /**
+ * Lab definition.
+ * @typedef {Object} LabDef
+ * @property {string} lab Experiment name.
+ * @property {string} description Experiment write-up.
+ * @property {string} type Significant type of the experiment.
+ * @property {string} logo URL to the image representing the experiment.
+ * @property {string} url Experiment view URL.
+ */
+
+/**
  * Displays a table with labs.json data.
  *
- * @param {array} items - Collection from the labs.json.
+ * @param {LabDef[]} items - Collection from the labs.json.
  */
 function displayLabs(items) {
 	const surLaTable = document.getElementById('content');
 	items.forEach(item => {
 		const woopDeDoop = document.createElement('div');
-		const imgLink = document.createElement('a');
-		imgLink.href = item.url;
-		const img = document.createElement('img');
-		img.src = item.logo;
-		img.alt = item.lab;
-		img.title = item.lab;
-		imgLink.appendChild(img);
+		woopDeDoop.style = `background-image:url(${item.logo});`;
 
 		const header = document.createElement('h2');
 		const headerLink = document.createElement('a');
@@ -28,7 +32,6 @@ function displayLabs(items) {
 		headerLink.href = item.url;
 		header.appendChild(headerLink);
 
-		woopDeDoop.appendChild(imgLink);
 		woopDeDoop.appendChild(header);
 
 		surLaTable.appendChild(woopDeDoop);

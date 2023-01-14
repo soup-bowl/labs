@@ -37,8 +37,19 @@ a:hover {
 	justify-content: center;
 }
 
-#content img {
+#content div {
 	width: 400px;
+	height: 250px;
+	display: flex;
+	align-items: flex-end;
+}
+
+#content h2 {
+	background-color: #000000e0;
+	width: 100%;
+	margin: 0;
+	padding: 5px;
+	text-align: left;
 }
 
 .footer {
@@ -90,7 +101,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 850px) {
-	#content img {
-		width: 200px;
+	#content {
+		grid-template-columns: auto;
 	}
 }
