@@ -23,7 +23,6 @@ function displayLabs(items) {
 
 		const margaritaville = surLaTable.insertRow();
 		margaritaville.insertCell().appendChild(link);
-		margaritaville.insertCell().appendChild(document.createTextNode(item.type));
 		margaritaville.insertCell().appendChild(document.createTextNode(item.description));
 	});
 
