@@ -1,7 +1,7 @@
 :root {
 	color-scheme: dark;
 	--primary: rgb(161 255 155);
-    --secondary: rgb(16 16 16);
+	--secondary: rgb(16 16 16);
 }
 
 body {
@@ -17,7 +17,8 @@ h1 {
 	font-size: 2em;
 }
 
-a, a:visited {
+a,
+a:visited {
 	color: var(--primary);
 }
 
@@ -29,33 +30,15 @@ a:hover {
 	padding: 10px 10% 0 10%;
 }
 
-#starbase table {
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-	text-align: left;
-	border-collapse: collapse;
-	background-color: var(--secondary);
-	font-size: 1em;
+#content {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
 }
 
-#starbase table thead {
-	font-weight: bold;
-	text-align: center;
-}
-
-#starbase table th,
-#starbase table td {
-	border: 1px solid var(--primary);
-	padding: 5px;
-}
-
-#starbase table img {
-	max-width: 250px;
-}
-
-#starbase table th:first-child {
-	width: 100px;
+#content img {
+	width: 400px;
 }
 
 .footer {
@@ -86,8 +69,13 @@ a:hover {
 
 /* Standard syntax */
 @keyframes throbberSpin {
-	0% { -webkit-transform: rotate(0deg); }
-	100% { -webkit-transform: rotate(360deg); }
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
 }
 
 #loadingThrobber {
@@ -95,19 +83,14 @@ a:hover {
 	animation: throbberSpin 2s linear infinite;
 }
 
-/* Small screen applications */
-@media (max-width: 750px) {
-	#starbase table {
-		margin: 0;
-		width: 100%;
+@media only screen and (max-width: 1300px) {
+	#content {
+		grid-template-columns: auto auto;
 	}
+}
 
-	#starbase table img {
-		max-width: 100px;
-	}
-
-	.footer {
-		width: 100%;
-		border-radius: inherit;
+@media only screen and (max-width: 850px) {
+	#content img {
+		width: 200px;
 	}
 }
