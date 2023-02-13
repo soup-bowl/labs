@@ -29,7 +29,7 @@ function displayLabs(items) {
 		const header = document.createElement('h2');
 		const headerLink = document.createElement('a');
 		headerLink.innerText = item.lab;
-		headerLink.href = item.url;
+		headerLink.href = (item.url.includes('http')) ? item.url : `${window.location.pathname.slice(0, -1)}${item.url}`;
 		header.appendChild(headerLink);
 
 		woopDeDoop.appendChild(header);
