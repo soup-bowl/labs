@@ -1,29 +1,43 @@
 <html>
-	<head>
-		<title>Miami</title>
-		<meta name="theme-color" content="#f3899f">
-		<style>
-			body {
-				background: url('vice-miami.svg') no-repeat center right fixed;
-				background-size: cover;
-			}
 
-			.toni {
-				position: fixed;
-				z-index: 1;
-				right: 20%;
-				bottom: 0;
-				max-height: 80%;
-			}
-		</style>
-	</head>
-	<body>
-		<!--
+<head>
+	<title>Miami</title>
+	<meta name="theme-color" content="#f3899f">
+	<style>
+		body {
+			background: url('vice-miami.svg') no-repeat center right fixed;
+			background-size: cover;
+			overflow: hidden;
+		}
+
+		.toni {
+			position: fixed;
+			z-index: 1;
+			right: 20%;
+			bottom: 0;
+			max-height: 80%;
+		}
+	</style>
+</head>
+
+<body>
+	<!--
 			font:       (cursive) https://fontesk.com/zafrilus-font/, Bold: Ubuntu.
 			character:  DJ Toni from Rockstar Games Grand Theft Auto: Vice City. Rendered into SVG and output into PNG.
 						(fun fact: I intentionally missed something from the original, see if you can spot it!).
 			background: SVG rendering of a Miami skyline with a pink/blue gradient colour scheme.
 		-->
-		<img class="toni" src="toni.png"/>
-	</body>
+	<img class="toni" src="toni/toni.png" srcset="
+		toni/toni-256.png 256w,
+		toni/toni-512.png 512w,
+		toni/toni-1024.png 1024w,
+		toni/toni-2048.png 2048w,
+		toni/toni-4096.png 4096w" sizes="
+		(min-width: 3840px) 4096px,
+		(min-width: 1280px) 2048px,
+		(min-width: 768px) 1024px,
+		(min-width: 360px) 512px,
+		100vw" />
+</body>
+
 </html>
