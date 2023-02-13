@@ -115,9 +115,11 @@ window.onload = () => {
 
 	// https://gist.github.com/soup-bowl/9b497fabbbe3fb76f826bc5687e6698a
 	fetch("https://gist.githubusercontent.com/soup-bowl/9b497fabbbe3fb76f826bc5687e6698a/raw/pantone-coty.yml")
-		.then(response => response.json())
+		.then(response => response.text())
 		.then(response => {
-			response.forEach(element => {
+			const parsedReponse = jsyaml.load(response);
+
+			parsedReponse.forEach(element => {
 				if (element.colors !== undefined) {
 					element.colors.forEach(color => {
 						document.getElementById("root").appendChild(buildSwatch(element, color));
