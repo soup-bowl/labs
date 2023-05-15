@@ -1,5 +1,12 @@
 [
 	{
+		"lab": "The Next Election UK",
+		"description": "A Politically neutral countdown timer to the next election.",
+		"type": "site",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/tnge.png",
+		"url": "https://thenextelection.uk/"
+	},
+	{
 		"lab": "Pressify",
 		"description": "Shows a web app based on a specified WordPress site URL.",
 		"type": "site",
