@@ -3,56 +3,56 @@
 		"lab": "The Next Election UK",
 		"description": "A Politically neutral countdown timer to the next election.",
 		"type": "site",
-		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/tnge.png",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/tnge.webp",
 		"url": "https://thenextelection.uk/"
 	},
 	{
 		"lab": "Pressify",
 		"description": "Shows a web app based on a specified WordPress site URL.",
 		"type": "site",
-		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/wapp.png",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/wapp.webp",
 		"url": "https://soupbowl.dev/pressify"
 	},
 	{
 		"lab": "What's This?",
 		"description": "Runs a tech check on a specified website. Primarily a ReactJS test.",
 		"type": "site",
-		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/whatsthis.png",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/whatsthis.webp",
 		"url": "https://whatsth.is"
 	},
 	{
 		"lab": "Stick of Celery Webcomics",
 		"description": "Webcomics I made during my teenage years",
 		"type": "site",
-		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/soc.png",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/soc.webp",
 		"url": "https://webcomics.soupbowl.blog"
 	},
 	{
 		"lab": "Miami",
 		"description": "Rendering of Toni from Flash FM on a stereotypical 80's Miami background.",
 		"type": "artwork",
-		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/miami.png",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/miami.webp",
 		"url": "/miami"
 	},
 	{
 		"lab": "Pantone",
 		"description": "Tiny JavaScript app showing the Pantone Color(s) of the Year",
 		"type": "artwork",
-		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/pantone.png",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/pantone.webp",
 		"url": "/pantone"
 	},
 	{
 		"lab": "Hyperspace",
 		"description": "Star Control 2 / Ur-quan Masters GUI made up in HTML, CSS and JavaScript.",
 		"type": "test",
-		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/hyperspace.png",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/hyperspace.webp",
 		"url": "/hyperspace"
 	},
 	{
 		"lab": "Among us",
 		"description": "Someone's the imposter...",
 		"type": "test",
-		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/amongus.png",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/amongus.webp",
 		"url": "/amongus"
 	}
 ]
