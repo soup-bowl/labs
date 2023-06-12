@@ -17,7 +17,7 @@ body {
 
 .stage-ship {
 	/*background-color: #c80000;*/
-	background-image: url('assets/sis-h.png');
+	background-image: url('assets/sis-h.webp');
 	background-size: cover;
 	width: 200px;
 	height:100px;
