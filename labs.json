@@ -21,6 +21,13 @@
 		"url": "https://whatsth.is"
 	},
 	{
+		"lab": "Stick of Celery Webcomics",
+		"description": "Webcomics I made during my teenage years",
+		"type": "site",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/soc.png",
+		"url": "https://webcomics.soupbowl.blog"
+	},
+	{
 		"lab": "Miami",
 		"description": "Rendering of Toni from Flash FM on a stereotypical 80's Miami background.",
 		"type": "artwork",
