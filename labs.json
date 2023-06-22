@@ -35,6 +35,13 @@
 		"url": "/miami"
 	},
 	{
+		"lab": "Chinatown",
+		"description": "Rendering of Ling Shan - a wronged, underated GTA character - in Liberty City.",
+		"type": "artwork",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/ctown.webp",
+		"url": "/chinatown"
+	},
+	{
 		"lab": "Pantone",
 		"description": "Tiny JavaScript app showing the Pantone Color(s) of the Year",
 		"type": "artwork",
