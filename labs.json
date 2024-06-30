@@ -1,5 +1,12 @@
 [
 	{
+		"lab": "Wrong Clock",
+		"description": "A broken clock is right twice a day. This one never is.",
+		"type": "site",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/wrongclock.webp",
+		"url": "https://soupbowl.io/wrong-clock/"
+	},
+	{
 		"lab": "Baby Name Generator",
 		"description": "A simple web app for choosing baby names with a simple sharing option.",
 		"type": "site",
