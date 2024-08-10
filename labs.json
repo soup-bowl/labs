@@ -1,5 +1,12 @@
 [
 	{
+		"lab": "Localib",
+		"description": "A Discogs client for browsing your collection offline.",
+		"type": "site",
+		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/localib.webp",
+		"url": "https://localib.app/"
+	},
+	{
 		"lab": "Wrong Clock",
 		"description": "A broken clock is right twice a day. This one never is.",
 		"type": "site",
