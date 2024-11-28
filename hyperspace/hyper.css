@@ -16,7 +16,6 @@ body {
 }
 
 .stage-ship {
-	/*background-color: #c80000;*/
 	background-image: url('assets/sis-h.webp');
 	background-size: cover;
 	width: 200px;
@@ -196,28 +195,31 @@ body {
 /* Gradients */
 .shipgradient {
 	background: #FF3800;
-	background: -webkit-linear-gradient(to bottom, #FF3800 0%, #FFC500 100%);
-	background: -moz-linear-gradient(to bottom, #FF3800 0%, #FFC500 100%);
+	background: -webkit-linear-gradient(bottom, #FF3800 0%, #FFC500 100%);
+	background: -moz-linear-gradient(bottom, #FF3800 0%, #FFC500 100%);
 	background: linear-gradient(to bottom, #FF3800 0%, #FFC500 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .fuelgradient {
 	background: #630000;
-	background: -webkit-linear-gradient(to bottom, #630000 0%, #de0000 100%);
-	background: -moz-linear-gradient(to bottom, #630000 0%, #de0000 100%);
+	background: -webkit-linear-gradient(bottom, #630000 0%, #de0000 100%);
+	background: -moz-linear-gradient(bottom, #630000 0%, #de0000 100%);
 	background: linear-gradient(to bottom, #630000 0%, #de0000 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .crewgradient {
 	background: #005000;
-	background: -webkit-linear-gradient(to bottom, #005000 0%, #00B400 100%);
-	background: -moz-linear-gradient(to bottom, #005000 0%, #00B400 100%);
+	background: -webkit-linear-gradient(bottom, #005000 0%, #00B400 100%);
+	background: -moz-linear-gradient(bottom, #005000 0%, #00B400 100%);
 	background: linear-gradient(to bottom, #005000 0%, #00B400 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 /* !OF Gradients */

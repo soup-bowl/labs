@@ -1,7 +1,6 @@
-params   = new URLSearchParams(window.location.search);
-imposter = params.get('imposter');
-
-let callsign = ((imposter == null) ? 'Dave' : imposter) + ' was the imposter.';
+const params = new URLSearchParams(window.location.search);
+let imposter = params.get('imposter');
+const callsign = ((imposter == null) ? 'Dave' : imposter) + ' was the imposter.';
 
 const sleep = (milliseconds) => {
 	return new Promise(resolve => setTimeout(resolve, milliseconds));
@@ -10,9 +9,9 @@ const sleep = (milliseconds) => {
 async function typeOutCallsign() {
 	await sleep(1000);
 
-	let signlength = callsign.length;
+	const signlength = callsign.length;
 	let currentStr = '';
-	let holder = document.getElementById('imposerCallsign');
+	const holder = document.getElementById('imposerCallsign');
 	holder.innerHTML = '';
 
 	typeSound();
@@ -33,14 +32,13 @@ async function typeSound() {
 function moveImposter() {
 	imposter = document.getElementById('imposter');
 	imposter.style.display = null;
-	let ww   = window.innerWidth;
-	let wh   = window.innerHeight;
-	let endv = ww + 500;
+	const ww   = window.innerWidth;
+	const endv = ww + 500;
 	imposter.style.left = "500px";
 	let degree = 0;
 
-	var currentPos = -500;
-	var motionInterval = setInterval(function() {
+	let currentPos = -500;
+	const motionInterval = setInterval(function() {
 		currentPos += 2;
 		degree     += 1;
 
@@ -59,15 +57,15 @@ function moveImposter() {
 }
 
 function generateStars() {
-	starlot = document.createElement('div');
-	let ww  = window.innerWidth;
-	let wh  = window.innerHeight;
+	const starlot = document.createElement('div');
+	const ww  = window.innerWidth;
+	const wh  = window.innerHeight;
 
 	for (let i = 0; i < 250; i++) {
-		let x = Math.floor(Math.random() * ww) + 1;
-		let y = Math.floor(Math.random() * wh) + 1;
+		const x = Math.floor(Math.random() * ww) + 1;
+		const y = Math.floor(Math.random() * wh) + 1;
 
-		star = document.createElement('div');
+		const star = document.createElement('div');
 		star.style.cssText = 'position:fixed;left:' + x + 'px;top:' + y + 'px;';
 		starlot.appendChild(star);
 	}

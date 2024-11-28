@@ -30,26 +30,26 @@
  * @returns {HTMLDivElement}
  */
 const buildSwatch = (element, color) => {
-	let swatch = document.createElement("div");
+	const swatch = document.createElement("div");
 	swatch.classList.add("swatch");
 
-	let col = document.createElement("div");
+	const col = document.createElement("div");
 	col.classList.add("color");
 	col.style = `background-color: ${color.hex}`;
-	coltext = document.createElement("h2");
+	const coltext = document.createElement("h2");
 	coltext.innerText = element.year;
 	col.appendChild(coltext);
 
-	let cotyName = document.createElement("div");
+	const cotyName = document.createElement("div");
 	cotyName.classList.add("color-name");
-	let CotyStr = document.createElement("p");
-	let CotyLnk = document.createElement("a");
+	const CotyStr = document.createElement("p");
+	const CotyLnk = document.createElement("a");
 	CotyLnk.innerText = color.name;
 	CotyLnk.href = element.url;
 	CotyStr.appendChild(CotyLnk);
 	cotyName.appendChild(CotyStr);
 
-	let details = document.createElement("div");
+	const details = document.createElement("div");
 	details.classList.add("details");
 
 	buildDetailSegment(details, color);
@@ -67,8 +67,8 @@ const buildSwatch = (element, color) => {
  * @param {ColorDefs} node The individual colour segment of the COTY response. 
  */
 const buildDetailSegment = (element, node) => {
-	let colA = buildSwatchColumn(["Pantone", node.code], 'pantone');
-	let colB = buildSwatchColumn([
+	const colA = buildSwatchColumn(["Pantone", node.code], 'pantone');
+	const colB = buildSwatchColumn([
 		`HEX ${node.hex}`,
 		`RGB ${node.rgb[0]}, ${node.rgb[1]}, ${node.rgb[2]}`
 	], 'codes');
@@ -84,11 +84,11 @@ const buildDetailSegment = (element, node) => {
  * @returns {HTMLDivElement}
  */
 const buildSwatchColumn = (details, className = '') => {
-	let col = document.createElement("div");
+	const col = document.createElement("div");
 	col.classList.add(className);
 
 	details.forEach((detail) => {
-		let deet = document.createElement("p");
+		const deet = document.createElement("p");
 		deet.innerText = detail;
 		col.appendChild(deet);
 	});
@@ -128,7 +128,7 @@ window.onload = () => {
 			});
 		})
 		.catch(() => {
-			let errTxt = document.createElement("p");
+			const errTxt = document.createElement("p");
 			errTxt.innerText = 'An error has occurred retrieving data';
 			document.getElementById("root").appendChild(errTxt);
 		})
