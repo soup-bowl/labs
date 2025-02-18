@@ -18,7 +18,7 @@
 		"description": "A simple web app for choosing baby names with a simple sharing option.",
 		"type": "site",
 		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/eggsalad.webp",
-		"url": "https://babyname.soupbowl.io/"
+		"url": "https://babyname.subo.dev/"
 	},
 	{
 		"lab": "The Next Election UK",
@@ -32,7 +32,7 @@
 		"description": "Shows a web app based on a specified WordPress site URL.",
 		"type": "site",
 		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/wapp.webp",
-		"url": "https://pressify.app"
+		"url": "https://pressify.subo.dev"
 	},
 	{
 		"lab": "What's This?",
