@@ -35,13 +35,6 @@
 		"url": "https://pressify.subo.dev"
 	},
 	{
-		"lab": "What's This?",
-		"description": "Runs a tech check on a specified website. Primarily a ReactJS test.",
-		"type": "site",
-		"logo": "https://raw.githubusercontent.com/soup-bowl/labs/main/_img/whatsthis.webp",
-		"url": "https://whatsth.is"
-	},
-	{
 		"lab": "Stick of Celery Webcomics",
 		"description": "Webcomics I made during my teenage years",
 		"type": "site",
